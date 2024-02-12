@@ -9,7 +9,7 @@ def validacion():
 def addlist():
     global i
     n = validacion()
-    while n < 0:
+    while n <= 0:
         print("Los numeros deben ser positivos")
         n = validacion()
     num.append(n)
